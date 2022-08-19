@@ -1,3 +1,3 @@
-FROM maven:3.3.9-jdk-8
-
-RUN echo "Hello World"
+FROM amazonlinux:2.0.20220606.1
+RUN echo "yum UPDATE"
+RUN yum update -y
